@@ -1,0 +1,19 @@
+
+"Close" = "关闭";
+
+"Location Services" = "定位服务";
+"Photos" = "照片";
+"Camera" = "相机";
+"Health" = "健康";
+"HomeKit" = "HomeKit";  // It's also called HomeKit in zh-Hant
+"Motion Activity" = "运动记录";
+"Contacts" = "通讯录";
+"Notifications" = "通知"; // Must be translate
+
+"Allow access to \"%@\"\nwith these steps:" = "根据以下步骤\n打开「%@」权限";
+
+"Open device settings" = "打开设备「设置」";
+"Tap on Privacy" = "选择「隐私」";
+"Tap on \"%@\"" = "选择「%@」";
+"Allow your application to use \"%@\"" = "允许应用使用「%@」";
+"Select the alert style you prefer" = "选择你喜爱的警告风格";

@@ -1,0 +1,23 @@
+//
+//  VideoMoments-Prefix.pch
+//  VideoMoments
+//
+//  Created by Johnny Xu(徐景周) on 5/22/15.
+//  Copyright (c) 2015 Future Studio. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// Custom
+#import "CommonDefine.h"
+
+#endif

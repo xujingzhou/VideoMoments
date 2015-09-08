@@ -1,0 +1,137 @@
+
+"Theme" = "主题";
+"Album" = "相册";
+"Save" = "保存";
+"Success" = "成功";
+"MsgSuccess" = "成功保存到相册中!";
+"OK" = "确定";
+"Failed" = "失败";
+"MsgFailed" = "保存到相册失败!";
+"Effect" = "特效";
+"MsgConvertFailed" = "文件转换失败。请再试一次!";
+"Processing" = "正在处理...";
+
+"Original" = "原图";
+"Miss" = "经典";
+"Country" = "怀旧";
+"OldFilm" = "老电影";
+"Distortion" = "哈哈镜";
+"Mosaic" = "马赛克";
+"Swirl" = "扭曲";
+
+"Settings" = "设置";
+"BackgroundColor" = "背景色";
+
+"PickupVideo" = "选取视频";
+
+"Attention" = "注意";
+"MoreThanAssetsCount" = "请最多选取5个.";
+"LessThanAssetsCount" = "请至少选取2个.";
+"AssetError" = "资源还没有就绪.";
+
+"UsageHint" = "点击此处开始";
+"UsageNextHint" = "继续下一步";
+"UsageDrawClippingArea" = "点击绘制剪裁区域";
+
+"FontName" = "迷你简启体";
+
+"ContactUS" = "联系我们";
+
+"SELECT" = "选择";
+
+"Undo" = "撤消";
+"Crop" = "剪裁";
+
+"Done" = "完成";
+"Back" = "返回";
+"Next" = "下一步";
+"Skip" = "跳过";
+
+"Horizontal" = "水平";
+"Vertical" = "垂直";
+"Square" = "正方";
+
+"Loading" = "正在加载...";
+"Loaded" = "加载完成";
+
+"Video" = "视频";
+"Camera" = "拍摄";
+"PhotoAlbum" = "相册";
+
+"MusicList" = "音乐列表";
+"Audio" = "音频";
+
+"Puzzle" = "拼接";
+"Gif" = "Gif";
+"Color" = "背景色";
+
+"SelectEmbeddedObjects" = "选择嵌入的对象(可选)";
+"GifAndVideo" = "GIF和视频边框";
+"BackgroundMusic" = "背景音乐";
+
+"SelectVideo" = "选择背景视频";
+"SelectAudio" = "选择音频";
+"ExportResult" = "导出结果";
+
+"Ready" = "已就绪";
+"NoReady" = "未就绪";
+"VideoContent" = "视频: ";
+"AudioContent" = "音频: ";
+
+"Export" = "导出";
+"StartToCreate" = "开始创建";
+"Start" = "开始";
+
+"Step1" = "步骤1: ";
+"Step2" = "步骤2: ";
+"Step3" = "步骤3: ";
+
+"Error" = "错误";
+"FileLenHint" = "抱歉, 视频文件长度目前暂定为小于:";
+
+"BeautyTime" = "美好时光";
+"PhotoBeautify" = "美图MV";
+
+"VideoMoments" = "视频拼接";
+"Demo" = "样例";
+"Convert" = "转换";
+
+"Private_Setting_Audio_Tips" = "软件正常工作时，需要使用手机的麦克风权限，请打开权限，通过系统'设置' -> '隐私' -> '麦克风'. ";
+"IKnow" = "我知道了";
+
+"Filter" = "滤镜";
+
+"Seconds" = "秒";
+"SavingVideo" = "正在保存...";
+"VideoExportFailed" = "视频不能被导出.";
+"VideoIsEmptyHint" = "背景视频文件为空, 请先选择视频.";
+"Square4VideoIsEmptyHint" = "背景视频文件不足4个, 请选择4个视频文件.";
+
+"Finish" = "完成";
+"Skip" = "跳过";
+"Cancel" = "取消";
+"Abandon" = "放弃";
+"Reminder" = "提醒";
+"CancelVideoHint" = "真要放弃这个视频么?";
+"ExceedHint" = "超出了最大的选取个数.";
+
+"Apple" = "Apple";
+"TheMoodOfLove" = "Love Paradise";
+"LeadMeOn" = "Lead Me On";
+"Butterfly" = "Butterfly";
+"PenguinsGame" = "Penguin's Game";
+"BecauseILoveYou" = "Because I Love You";
+"MyLove" = "My Love";
+"PrettyBoy" = "Pretty Boy";
+"TheDayYouWentAway" = "The Day You Went Away";
+"RhythmOfRain" = "Rhythm Of Rain";
+"YesterdayOnceMore" = "Yesterday Once More";
+"ILoveYouMoreThanICanSay" = "I Love You More Than I Can Say";
+
+"ALittleKiss" = "A Little Kiss";
+"ByeByeSunday" = "Bye Bye Sunday";
+"ComeWithMe" = "Come With Me";
+"DolphinTango" = "Dolphin Tango";
+"IDo" = "I Do";
+"LetMeKnow" = "Let Me Know";
+"SwingDance" = "Swing Dance";

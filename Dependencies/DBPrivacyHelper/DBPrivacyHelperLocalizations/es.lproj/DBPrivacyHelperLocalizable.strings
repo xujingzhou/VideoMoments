@@ -1,0 +1,19 @@
+
+"Close" = "Cerrar";
+
+"Location Services" = "Localizacíon";
+"Photos" = "Fotos";
+"Camera" = "Cámara";
+"Health" = "Salud";
+"HomeKit" = "HomeKit";
+"Motion Activity" = "Actividad física";
+"Contacts" = "Contactos";
+"Notifications" = "Notificaciones";
+
+"Allow access to \"%@\"\nwith these steps:" = "Para habilitar el acceso a \"%@\"\nprocede de la siguiente manera:";
+
+"Open device settings" = "Abrir configuración del dispositivo";
+"Tap on Privacy" = "Selecciona Privacidad";
+"Tap on \"%@\"" = "Selecciona \"%@\"";
+"Allow your application to use \"%@\"" = "Permitir a tu aplicación usar \"%@\"";
+"Select the alert style you prefer" = "Seleccionar el tipo de alerta que prefieras";
