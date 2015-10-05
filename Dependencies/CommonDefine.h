@@ -143,8 +143,8 @@ static inline BOOL isZHHansFromCurrentlyLanguage()
 #define CURR_LANG ([[NSLocale preferredLanguages] objectAtIndex: 0])
 static inline NSString* GBLocalizedString(NSString *translation_key)
 {
-    NSString * string = NSLocalizedString(translation_key, nil );
-    if (![CURR_LANG isEqual:@"en"] && ![CURR_LANG isEqualToString:@"zh-Hans"])
+    NSString * string = NSLocalizedString(translation_key, nil);
+    if (![CURR_LANG isEqual:@"en"] && ![CURR_LANG isEqualToString:@"zh-Hans"] && ![CURR_LANG isEqualToString:@"zh-Hans-CN"])
     {
         NSString * path = [[NSBundle mainBundle] pathForResource:@"en" ofType:@"lproj"];
         NSBundle * languageBundle = [NSBundle bundleWithPath:path];
