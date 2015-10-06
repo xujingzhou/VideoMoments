@@ -654,6 +654,22 @@
     [super viewDidAppear:animated];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    // Disable system sleep
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    // Enable system sleep
+    [[UIApplication sharedApplication] setIdleTimerDisabled:NO];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
