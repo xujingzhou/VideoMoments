@@ -166,7 +166,6 @@ static inline void showAlertMessage(NSString *text, NSString *title)
 }
 
 #pragma mark - FindRightNavBarItemView
-// Get view for navigarion right item
 static inline UIView* findRightNavBarItemView(UINavigationBar *navbar)
 {
     UIView* rightView = nil;
@@ -183,6 +182,20 @@ static inline UIView* findRightNavBarItemView(UINavigationBar *navbar)
     }
     
     return rightView;
+}
+
+#pragma mark - Find ViewController
+static inline UIViewController* findViewController(UIView *currentView)
+{
+    for (UIView* next = [currentView superview]; next; next = next.superview)
+    {
+        UIResponder* nextResponder = [next nextResponder];
+        if ([nextResponder isKindOfClass:[UIViewController class]])
+        {
+            return (UIViewController*)nextResponder;
+        }
+    }
+    return nil;
 }
 
 #pragma mark - File Helper
