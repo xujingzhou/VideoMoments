@@ -1499,4 +1499,60 @@
     return appRunCount;
 }
 
+#pragma mark - sortedArrayByDate
+- (NSArray *)sortedArrayByDate:(NSArray *)dateArray
+{
+    return  (NSArray *)[dateArray sortedArrayUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+        
+        NSDateFormatter *formatter = [self sharedDateFormatter];
+        [formatter setDateFormat:@"yyyy-MM-dd"];
+        [formatter setTimeZone:[NSTimeZone timeZoneWithName:@"GMT"]];
+        
+        if (obj1 == [NSNull null])
+        {
+            obj1 = @"0000－00－00";
+        }
+        
+        if (obj2 == [NSNull null])
+        {
+            obj2 = @"0000－00－00";
+        }
+        
+        NSDate *date1 = [formatter dateFromString:obj1];
+        NSDate *date2 = [formatter dateFromString:obj2];
+        NSComparisonResult result = [date1 compare:date2];
+        return result == NSOrderedAscending;
+    }];
+}
+
+#pragma mark - beyondTodayDate
+- (BOOL)beyondTodayDate:(NSString *)dateString
+{
+    BOOL bResult = FALSE;
+    NSDateFormatter *formatter = [self sharedDateFormatter];
+    [formatter setDateFormat:@"yyyy-MM-dd"];
+    [formatter setTimeZone:[NSTimeZone timeZoneWithName:@"GMT"]];
+    
+    NSDate * needFormatDate = [formatter dateFromString:dateString];
+    NSTimeInterval timeInterval = [needFormatDate timeIntervalSinceNow];
+    if (timeInterval > 0)
+    {
+        // dateString > Current Time
+        bResult = TRUE;
+    }
+    
+    return bResult;
+}
+
+static NSDateFormatter * sharedDateFormatterInstance;
+- (NSDateFormatter *)sharedDateFormatter
+{
+    if(sharedDateFormatterInstance == nil)
+    {
+        sharedDateFormatterInstance = [[NSDateFormatter alloc] init];
+    }
+    
+    return sharedDateFormatterInstance;
+}
+
 @end
