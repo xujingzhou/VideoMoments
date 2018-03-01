@@ -4,8 +4,9 @@ With this software, you can do all kinds of Personalised Customize and  beautify
 For Example:  Customizable splice style based on template,  gif animation, background color and video border. Tested by iPhone 4 and iPhone 5S.
   
   
-通过选取多个视频，按选取视频模板进行各种样式组合，最终生成拼接后的mp4视频格式。 备注：本作品属创新之作，版权所有！
+通过选取多个视频，按选取视频模板进行各种样式组合，最终生成拼接后的mp4视频格式。 
   
+本作品属创新之作，版权所有！
 Johnny Xu (徐景周)  
 Future Studio(未来工作室) 
 
