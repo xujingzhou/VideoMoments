@@ -6,12 +6,10 @@ For Example:  Customizable splice style based on template,  gif animation, backg
   
 通过选取多个视频，按选取视频模板进行各种样式组合，最终生成拼接后的mp4视频格式。 
   
-本作品属创新之作，版权所有！  
+产品效果展示：   
+https://www.douyin.com/video/7363552049025256719  
+
 Johnny Xu (徐景周)  
 Future Studio(未来工作室) 
-
-<img src="https://github.com/xujingzhou/VideoMoments/blob/master/Resource/Demo/Demo.gif" width = "300" height = "400" alt="Demo" align=center />
-
-<img src="https://github.com/xujingzhou/VideoMoments/blob/master/Resource/Demo/CN_640x960_0.jpg" width = "300" height = "400" alt="Demo" align=center />
 
 	  
