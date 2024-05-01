@@ -7,7 +7,7 @@ For Example:  Customizable splice style based on template,  gif animation, backg
 通过选取多个视频，按选取视频模板进行各种样式组合，最终生成拼接后的mp4视频格式。 
   
 产品效果展示：   
-https://www.douyin.com/video/7363552049025256719  
+https://www.douyin.com/video/7363549831077399808    
 
 Johnny Xu (徐景周)  
 Future Studio(未来工作室) 
