@@ -9,7 +9,8 @@ For Example:  Customizable splice style based on template,  gif animation, backg
 产品效果展示：   
 https://v.m.chenzhongtech.com/fw/photo/3x64qtydfvct39e     
 
+Copyright and all rights therein are retained by authors or by other copyright holders.  
 Johnny Xu (徐景周)  
-Future Studio(未来工作室) 
+Future Studio   
 
 	  
